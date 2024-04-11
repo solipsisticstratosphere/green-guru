@@ -1,3 +1,13 @@
-.you-order {
+/* .you-order {
   background-color: #7a3145;
 }
+
+.links-obj a::after {
+  content: '/';
+  margin: 0 5px; 
+} 
+
+ .links-obj:last-child a::after {
+  content: '';
+} 
+*/
