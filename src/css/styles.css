@@ -51,17 +51,17 @@ p {
   margin: 0 auto;
 }
 
-@media screen and (min-widht: 375px) {
+@media screen and (min-width: 375px) {
   .container {
     width: 375px;
   }
 }
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
-@media screen and (min-widht: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
   }
