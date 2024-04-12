@@ -31,3 +31,59 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+body {
+  font-family: 'Inter Tight', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-widht: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media screen and (min-widht: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-widht: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
