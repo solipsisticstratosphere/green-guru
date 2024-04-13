@@ -51,7 +51,7 @@
       rgba(20, 20, 20, 0.3),
       rgba(20, 20, 20, 0.3)
     ),
-    url(../img/how-it-works/how-it-works-1x.jpg);
+    url(./img/how-it-works/how-it-works-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,7 +64,7 @@
         rgba(20, 20, 20, 0.3),
         rgba(20, 20, 20, 0.3)
       ),
-      url(../img/how-it-works/how-it-works-2x.jpg);
+      url(./img/how-it-works/how-it-works-2x.jpg);
   }
 }
 
