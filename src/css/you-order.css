@@ -55,11 +55,11 @@
 
 .input-name,
 .comment {
-  width: 100%; /* Зробити інпути на повну ширину контейнера */
+  width: 100%;
 }
 
 .send {
-  width: 100%; /* Зробити кнопку на повну ширину контейнера */
+  width: 100%;
 }
 .order-form {
   justify-content: center;
@@ -123,7 +123,7 @@ input[type='email']:not(:placeholder-shown):valid {
 .send {
   background: #576f35;
   border-radius: 30px;
-  padding: 16px 20px; /* Змінивши значення padding */
+  padding: 16px 20px;
 
   height: 50px;
   border: none;
@@ -183,8 +183,10 @@ input[type='email']:not(:placeholder-shown):valid {
   color: rgba(251, 251, 251, 0.5);
   margin-bottom: 14px;
 }
+.socials {
+  max-width: 295px;
+}
 .links {
-  width: 295px;
   height: 60px;
   display: flex;
   flex-wrap: wrap;
@@ -267,8 +269,42 @@ input[type='email']:not(:placeholder-shown):valid {
     margin-bottom: 15px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .title-par {
+    margin-left: 80px;
     width: 751px;
+  }
+  .form-pic-wrapper {
+    margin: 0 auto;
+    gap: 24px;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .form-container {
+    margin-bottom: 0;
+    padding: 50px 50px;
+    max-width: 529px;
+  }
+  .links-card {
+    max-width: 527px;
+  }
+  .send {
+    font-size: 18px;
+  }
+  .follow-us {
+    font-size: 18px;
+  }
+  .links {
+    width: 357px;
+    flex-wrap: wrap;
+    height: 76px;
+  }
+  .links-obj {
+    font-size: 32px;
+  }
+  .bottle-pic {
+    transform: scale(1.3);
   }
 }
