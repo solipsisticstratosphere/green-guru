@@ -173,8 +173,18 @@
 .menu-shop-btn:focus {
   color: rgba(122, 49, 69, 0.7);
 }
-
+@media screen and (max-width: 767px) {
+  .icon-tab {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
+  .icon-mob {
+    display: none;
+  }
+  .icon-tab {
+    display: block;
+  }
   .header-container {
     margin-top: 32px;
   }
