@@ -1,100 +1,91 @@
-.how-it-works-section-image-background {
-  background-color: #7a3145;
+.how-it-works {
   padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.how-it-works-section-image {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media only screen and (min-width: 1280px) {
-  .how-it-works-section-image-background {
-    position: relative;
-  }
-
-  .how-it-works-image {
-    position: absolute;
-    bottom: 100px;
-    right: 100px;
-  }
-
-  .how-it-works-section-tutorial-background {
-    position: relative;
-    height: 759px;
-  }
-
-  .how-it-works-section-tutorial {
-    position: absolute;
-    bottom: 100px;
-    left: 100px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .how-it-works-image {
-    width: 100%;
-  }
-}
-
-.how-it-works-section-tutorial-background {
-  background-color: #576f35;
-  padding-top: 80px;
   padding-bottom: 80px;
+  background-image: linear-gradient(#7a3145 0 45%, #576f35 45% 100%);
 }
 
-@media only screen and (max-width: 374px) {
-  .how-it-works-section-tutorial-background,
-  .how-it-works-section-image-background {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
-
-.how-it-works-section-tutorial {
-  max-width: 335px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.how-it-works-image {
-  border-radius: 30px;
-  margin: 0 auto;
-}
-
-@media only screen and (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.3),
-        rgba(20, 20, 20, 0.3)
-      ),
-      url(./img/how-it-works/how-it-works-2x.jpg);
-  }
-}
-
-.how-it-works-subtitle {
+.follow-steps {
+  margin-top: 120px;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
+  font-size: 28px;
+  line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
 }
 
-.how-it-works-span-unvisible {
+.green-heading {
   color: rgba(251, 251, 251, 0.3);
 }
 
-.how-it-works-title {
+.follow-steps-description {
   font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   color: #fbfbfb;
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .how-it-works {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(#7a3145 0 55%, #576f35 55% 100%);
+  }
+
+  .top-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .follow-steps {
+    margin-top: 200px;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .follow-steps-description {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+
+  .steps-wrap {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+  .how-it-works-list-item-title {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .how-it-works {
+    background-image: linear-gradient(
+      to right,
+      #7a3145 0 50%,
+      #576f35 50% 100%
+    );
+  }
+
+  .container-hiw {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .follow-steps {
+    margin-top: 0;
+  }
+
+  .steps-wrap {
+    width: 450px;
+    margin-left: 200px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .how-it-works-list {
   display: flex;
   flex-wrap: wrap;
@@ -147,73 +138,4 @@
 .how-it-works-span-bold {
   font-weight: 700;
   color: #141414;
-}
-
-@media only screen and (min-width: 768px) {
-  .how-it-works-section-image-background {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .how-it-works-section-image {
-    padding-left: 64px;
-    padding-right: 64px;
-    max-width: 768px;
-  }
-
-  .how-it-works-section-tutorial-background {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .how-it-works-section-tutorial {
-    max-width: 450px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .how-it-works-image {
-    max-width: 640px;
-    height: 640px;
-  }
-
-  .how-it-works-subtitle {
-    font-size: 32px;
-    margin-bottom: 25px;
-  }
-
-  .how-it-works-title {
-    font-size: 16px;
-    line-height: 125%;
-    margin-bottom: 50px;
-  }
-
-  .how-it-works-list-item-title {
-    font-size: 16px;
-    line-height: 125%;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .how-it-works {
-    display: flex;
-  }
-
-  .how-it-works-section-image-background {
-    width: 50%;
-  }
-
-  .how-it-works-section-image {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .how-it-works-section-tutorial-background {
-    width: 50%;
-  }
-
-  .how-it-works-image {
-    max-width: 430px;
-    height: 559px;
-  }
 }
