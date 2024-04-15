@@ -1,59 +1,24 @@
-.hero {
+.hero-section {
   background: #576f35;
-  padding: 100px 0px 0px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  gap: 40px;
-  /* background-image: linear-gradient(
-    rgba(20, 20, 20, 0.2),
-    rgba(20, 20, 20, 0.2)
-  ); */
-}
-
-.hero-title-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  max-width: 335px;
-}
-
-.hero-title {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 1;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #fbfbfb;
-}
-
-.hero-text {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  color: #fbfbfb;
-}
-
-.hero-fone {
-  min-height: 100vh;
-  width: 100%;
   background-image: linear-gradient(
       to bottom,
       rgba(20, 20, 20, 0.2),
       rgba(20, 20, 20, 0.2)
     ),
-    url(../src/img/hero/hero-img-mob-1x.jpg);
+    url(./src/img/hero/hero-img-mob-1x.jpg);
+  max-width: 375px;
+  height: 712px;
   background-repeat: no-repeat;
-  background-position: center top;
   background-size: contain;
+  background-position: bottom;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-fone {
+  .hero-section {
     background-image: linear-gradient(
         to bottom,
         rgba(20, 20, 20, 0.2),
@@ -63,127 +28,102 @@
   }
 }
 
-/*==================hero 375px=================*/
+.hero-title-section {
+  color: #fbfbfb;
+  text-align: left;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-text-section {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  text-align: left;
+}
 
 @media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
 }
-
-/*==================hero 768px================*/
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding: 0;
-  }
-
-  .hero {
-    padding: 122px 0px 0px 0px;
-    gap: 50px;
-  }
-
-  .hero-title-container {
-    padding: 0 32px;
-    justify-content: left;
-    align-items: left;
+  .hero-section {
+    margin: 0 auto;
     max-width: 768px;
-  }
-
-  .hero-title {
-    font-size: 76px;
-  }
-
-  .hero-text {
-    font-size: 16px;
-    max-width: 603px;
-  }
-
-  .hero-fone {
+    height: 902px;
     background-image: linear-gradient(
         to bottom,
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(/src/img/hero/hero-img-tab-1x.jpg);
+      url(./src/img/hero/hero-img-tab-1x.jpg);
   }
 
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-fone {
+    .hero-section {
       background-image: linear-gradient(
           to bottom,
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(/src/img/hero/hero-img-tab-2x.jpg);
+        url(./src/img/hero/hero-img-tab-2x.jpg);
     }
+  }
+
+  .hero-title-section {
+    font-size: 76px;
+    margin-bottom: 25px;
+  }
+
+  .hero-text-section {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 603px;
   }
 }
 
-/*==================hero 1280px================*/
-
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding: 0px 0px 0px 100px;
-  }
-
-  .hero {
-    padding: 0px 0px 0px 0px;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 28px;
-  }
-
-  .hero-dt {
-    width: auto;
-  }
-
-  .hero-title-container {
-    padding: 0px 0px 50px 0px;
-    gap: 128px;
-    max-width: 502px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-  }
-
-  .hero-title {
-    max-width: 502px;
-  }
-
-  .hero-text {
-    line-height: 1.25;
-    max-width: 472px;
-  }
-
-  .hero-fone {
+  .hero-section {
+    padding: 0 100px;
+    max-width: 1280px;
+    height: 800px;
     background-image: linear-gradient(
-        to bottom,
+        to right,
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(/src/img/hero/hero-img-dt-1x.jpg);
-    background-position: left bottom;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+      url(./src/img/hero/hero-img-dt-1x.jpg);
+    background-position: right;
   }
 
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-fone {
+    .hero-section {
       background-image: linear-gradient(
-          to bottom,
+          to right,
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(/src/img/hero/hero-img-dt-2x.jpg);
+        url(./src/img/hero/hero-img-dt-2x.jpg);
     }
+  }
+
+  .hero-title-section {
+    width: 502px;
+    padding-top: 238px;
+    margin-bottom: 128px;
+    text-align: left;
+  }
+
+  .hero-text-section {
+    width: 472px;
+    letter-spacing: 0.02em;
   }
 }
