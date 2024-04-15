@@ -1,3 +1,125 @@
 .vegetables {
-  background-color: blueviolet;
+  background-color: #7a3145;
+}
+.vegetables .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.veget-title {
+  font-weight: 600;
+  font-size: 48px;
+
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.veget-span {
+  color: #fbfbfb3d;
+}
+
+.veget-text {
+  font-weight: 500;
+  font-size: 14px;
+
+  line-height: 1.29;
+  color: #fbfbfb;
+  /* width: 335px;
+  height: 192px; */
+  margin-bottom: 40px;
+}
+
+.veget-list {
+  display: flex;
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.veget-list-item {
+  gap: 10px;
+  border-radius: 40px;
+  padding: 32px 26px;
+  width: 334px;
+  height: 379px;
+  background-color: #fbfbfb;
+}
+
+.card-price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.veget-img {
+  width: 282px;
+  height: 243px;
+}
+
+.veget-list-title {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 12px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #7a3145;
+}
+
+.veget-price {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+@media screen and (min-width: 768px) {
+  .vegetables .container {
+    width: 768px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .veget-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    row-gap: 28px;
+  }
+  .veget-list-item {
+    width: calc((100% - 20px) / 2);
+  }
+  .veget-text {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 626px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .vegetables .container {
+    width: 1280px;
+    padding: 100px;
+  }
+  .veget-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+  .veget-title {
+    font-size: 64px;
+    margin-bottom: 25px;
+  }
 }
