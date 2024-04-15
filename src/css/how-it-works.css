@@ -18,9 +18,37 @@
 }
 
 .how-it-works-section-image {
-  max-width: 375px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works-section-image-background {
+    position: relative;
+  }
+
+  .how-it-works-image {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+
+  .how-it-works-section-tutorial-background {
+    position: relative;
+    height: 759px;
+  }
+
+  .how-it-works-section-tutorial {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .how-it-works-image {
+    width: 100%;
+  }
 }
 
 .how-it-works-section-tutorial-background {
@@ -44,17 +72,7 @@
 }
 
 .how-it-works-image {
-  max-width: 335px;
-  height: 450px;
   border-radius: 30px;
-  background-image: linear-gradient(
-      rgba(20, 20, 20, 0.3),
-      rgba(20, 20, 20, 0.3)
-    ),
-    url(./img/how-it-works/how-it-works-1x.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin: 0 auto;
 }
 
