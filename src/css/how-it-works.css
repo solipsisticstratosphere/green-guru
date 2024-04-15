@@ -59,7 +59,7 @@
 }
 
 @media only screen and (min-resolution: 192dpi) {
-  .hero {
+  .how-it-works-image {
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.3),
         rgba(20, 20, 20, 0.3)
