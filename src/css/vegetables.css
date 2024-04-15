@@ -1,9 +1,7 @@
-/* .vegetables {
-  padding-top: 80px;
-  padding-bottom: 80px;
-} */
-.vegetables .container {
+.vegetables {
   background-color: #7a3145;
+}
+.vegetables .container {
   padding-top: 80px;
   padding-bottom: 80px;
 }
