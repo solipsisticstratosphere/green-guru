@@ -1,18 +1,15 @@
 .container {
-  width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
     padding: 0 32px;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
     padding: 0px 100px;
   }
 }
@@ -23,11 +20,11 @@
 .header-container {
   position: absolute;
   left: 50%;
+  top: 20px;
   transform: translate(-50%, 0);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
 }
 .logo {
   display: flex;
@@ -186,7 +183,7 @@
     display: block;
   }
   .header-container {
-    margin-top: 32px;
+    top: 32px;
   }
   .logo {
     gap: 8px;
