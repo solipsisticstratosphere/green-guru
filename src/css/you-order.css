@@ -271,7 +271,6 @@ input[type='email']:not(:placeholder-shown):valid {
 }
 @media screen and (min-width: 1280px) {
   .title-par {
-    margin-left: 80px;
     width: 751px;
   }
   .form-pic-wrapper {
