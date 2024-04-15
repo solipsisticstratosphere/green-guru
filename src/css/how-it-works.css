@@ -1,1 +1,219 @@
+.how-it-works-section-image-background {
+  background-color: #7a3145;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
+.how-it-works-section-image {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works-section-image-background {
+    position: relative;
+  }
+
+  .how-it-works-image {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+
+  .how-it-works-section-tutorial-background {
+    position: relative;
+    height: 759px;
+  }
+
+  .how-it-works-section-tutorial {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .how-it-works-image {
+    width: 100%;
+  }
+}
+
+.how-it-works-section-tutorial-background {
+  background-color: #576f35;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 374px) {
+  .how-it-works-section-tutorial-background,
+  .how-it-works-section-image-background {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.how-it-works-section-tutorial {
+  max-width: 335px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.how-it-works-image {
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.3),
+        rgba(20, 20, 20, 0.3)
+      ),
+      url(./img/how-it-works/how-it-works-2x.jpg);
+  }
+}
+
+.how-it-works-subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.how-it-works-span-unvisible {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.how-it-works-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.how-it-works-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.how-it-works-list-item {
+  padding: 12px 24px;
+  background-color: #fbfbfb;
+  border-radius: 15px;
+  padding: 17px 24px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+  height: 76px;
+}
+
+.how-it-works-list-item-tutorial-numbers {
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  box-shadow: 0 0 0 5px rgba(122, 49, 69, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(122, 49, 69);
+  border: 5px;
+  position: absolute;
+}
+
+.tutorial-number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.how-it-works-list-item-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  padding-left: 71px;
+}
+
+.how-it-works-span-bold {
+  font-weight: 700;
+  color: #141414;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-section-image-background {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .how-it-works-section-image {
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 768px;
+  }
+
+  .how-it-works-section-tutorial-background {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .how-it-works-section-tutorial {
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .how-it-works-image {
+    max-width: 640px;
+    height: 640px;
+  }
+
+  .how-it-works-subtitle {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .how-it-works-title {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 50px;
+  }
+
+  .how-it-works-list-item-title {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works {
+    display: flex;
+  }
+
+  .how-it-works-section-image-background {
+    width: 50%;
+  }
+
+  .how-it-works-section-image {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .how-it-works-section-tutorial-background {
+    width: 50%;
+  }
+
+  .how-it-works-image {
+    max-width: 430px;
+    height: 559px;
+  }
+}
