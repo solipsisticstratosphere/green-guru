@@ -6,6 +6,7 @@
   padding-top: 100px;
   padding-bottom: 40px;
   margin: 0 auto;
+  max-width: 335px;
 }
 
 .hero-img {
@@ -17,7 +18,7 @@
     ),
     url(./img/hero/hero-img-mob-1x.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -82,6 +83,8 @@
   .hero-text-wrap {
     padding-top: 122px;
     padding-bottom: 50px;
+
+    max-width: 704px;
   }
 
   .hero-img {
@@ -114,7 +117,6 @@
   }
 
   .hero-text {
-    max-width: 603px;
     font-size: 16px;
     line-height: 1.25em;
     margin-bottom: 0;
@@ -165,8 +167,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 28px;
+    padding: 238px 28px 50px 0px;
+    /* padding-right: 28px;
     padding-top: 238px;
-    padding-bottom: 50px;
+    padding-bottom: 50px; */
   }
 }
