@@ -21,7 +21,7 @@
   margin: 0 auto;
   max-width: 335px;
 
-  padding: 100px 20px 40px 20px;
+  padding: 100px 0px 40px 0px;
 }
 
 .hero-img {
@@ -57,6 +57,7 @@
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 40px;
+  /* margin-right: 28px; */
 }
 
 .hero-text {
@@ -98,7 +99,7 @@
   .hero-text-wrap {
     /* padding-top: 122px;
     padding-bottom: 50px; */
-    padding: 122px 32px 50px 32px;
+    padding: 122px 0px 50px 0px;
     max-width: 704px;
   }
 
@@ -132,6 +133,7 @@
   }
 
   .hero-text {
+    max-width: 603px;
     font-size: 16px;
     line-height: 1.25em;
     margin-bottom: 0;
@@ -181,8 +183,9 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding: 238px 28px 50px 0px;
+    align-items: flex-start;
+    padding: 238px 0px 50px 100px;
+    /* margin-right: 28px; */
     /* padding-right: 28px;
     padding-top: 238px;
     padding-bottom: 50px; */
