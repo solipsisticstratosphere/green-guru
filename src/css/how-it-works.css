@@ -89,10 +89,12 @@
     width: 430px;
   }
 }
+
 .how-it-works-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  counter-reset: list;
 }
 
 .how-it-works-list-item {
@@ -107,7 +109,7 @@
   position: relative;
   height: 76px;
 }
-
+/* 
 .how-it-works-list-item-tutorial-numbers {
   border-radius: 100%;
   width: 42px;
@@ -119,7 +121,7 @@
   background-color: rgba(122, 49, 69);
   border: 5px;
   position: absolute;
-}
+} */
 
 .tutorial-number {
   font-weight: 600;
@@ -141,4 +143,24 @@
 .how-it-works-span-bold {
   font-weight: 700;
   color: #141414;
+}
+.how-it-works-list-item::before {
+  counter-increment: list;
+  content: '' counter(list);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 100%;
+  background-color: #7a3145;
+  border: 5px solid rgba(255, 255, 255, 0.609);
+  display: flex;
+  width: 52px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 29px;
+  /* margin-right: 24px; */
 }
