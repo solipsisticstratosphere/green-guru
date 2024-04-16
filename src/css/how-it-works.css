@@ -95,6 +95,7 @@
   flex-wrap: wrap;
   gap: 20px;
   counter-reset: list;
+  padding:0;
 }
 
 .how-it-works-list-item {
