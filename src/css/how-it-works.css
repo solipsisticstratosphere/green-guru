@@ -85,6 +85,9 @@
     padding-left: 0;
     padding-right: 0;
   }
+  .woman-cooks-image {
+    width: 430px;
+  }
 }
 .how-it-works-list {
   display: flex;
