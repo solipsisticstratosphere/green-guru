@@ -16,10 +16,12 @@
   }
 }
 .hero-text-wrap {
-  padding-top: 100px;
-  padding-bottom: 40px;
+  /* padding-top: 100px;
+  padding-bottom: 40px; */
   margin: 0 auto;
   max-width: 335px;
+
+  padding: 100px 20px 40px 20px;
 }
 
 .hero-img {
@@ -94,9 +96,9 @@
 
 @media screen and (min-width: 768px) {
   .hero-text-wrap {
-    padding-top: 122px;
-    padding-bottom: 50px;
-
+    /* padding-top: 122px;
+    padding-bottom: 50px; */
+    padding: 122px 32px 50px 32px;
     max-width: 704px;
   }
 
