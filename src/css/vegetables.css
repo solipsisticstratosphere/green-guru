@@ -1,7 +1,5 @@
 .vegetables {
   background-color: #7a3145;
-}
-.vegetables .container {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -55,7 +53,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 12px;
 }
 
 .veget-img {
@@ -81,12 +78,9 @@
   color: #141414;
 }
 @media screen and (min-width: 768px) {
-  .vegetables .container {
-    width: 768px;
+  .vegetables {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .veget-list {
     display: flex;
@@ -111,10 +105,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .vegetables .container {
-    width: 1280px;
-    padding: 100px;
-  }
   .veget-list-item {
     width: calc((100% - 40px) / 3);
   }

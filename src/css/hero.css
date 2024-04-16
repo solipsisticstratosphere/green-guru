@@ -1,7 +1,10 @@
 .hero {
   background-color: #576f35;
 }
-
+.hero-container {
+  width: 1280px;
+  margin: 0 auto;
+}
 .hero-text-wrap {
   padding-top: 100px;
   padding-bottom: 40px;
