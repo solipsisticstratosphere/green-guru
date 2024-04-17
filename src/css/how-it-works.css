@@ -119,20 +119,20 @@
   line-height: 1;
   letter-spacing: -0.02em;
 }
-
+.container1 {
+  min-width: 320px;
+}
 @media only screen and (min-width: 375px) {
   .how-it-about-menu {
     max-width: 335px;
   }
 }
-
 @media only screen and (min-width: 376px) {
   .container1 {
     max-width: none;
     min-width: 375px;
   }
 }
-
 @media only screen and (min-width: 768px) {
   .how-it-image {
     padding: 100px 64px;
