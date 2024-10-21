@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/GreenGuru-Developers/",
+    "build": "vite build --base=/green-guru/",
     "preview": "vite preview"
   },
   "devDependencies": {
